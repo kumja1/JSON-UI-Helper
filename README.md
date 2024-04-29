@@ -1,10 +1,12 @@
 # JSON-UI-Helper
 
-Welcome. Here i made a converter that converts
-your JS Code to JSON-UI(*My biggest project yet*)! Well, i don't really know how
-to make an interpreter so you can just fork or download
-the zip file at the bottom of this page. You can also
-contribute if you want. And also test things on ```test.js```.
+Welcome! Here i made a converter that converts
+your JS Code to JSON-UI! Well for now you can just 
+fork this repository or download the zip file at the **Releases**. 
+You can also contribute to this project and you would be absolutely
+a great help for this project if so.
+
+And also test things on ```test.js```.
 That's all and enjoy tinkering around!
 
 # Documentation:
