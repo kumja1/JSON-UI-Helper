@@ -105,7 +105,7 @@ That's all and enjoy tinkering around!
 
 | Function | Description |
 | :------: | :---------: |
-| CombineJSON([array], namespace: Optional) | Combines your JSON-UI elements into one |
-| Bindings() | |
-| visibilityBinding(propertyName, controlName: Optional) | A binding that controls the visibility of your element |
-| collectionBinding(bindingName, collectionName, overrideName: string: Optional) | Gets a property binding from a collection |
+| ```CombineJSON([array], namespace: Optional)``` | Combines your JSON-UI elements into one |
+| ```Bindings()``` | Class |
+| ```visibilityBinding(propertyName, controlName: Optional)``` | A binding that controls the visibility of your element |
+| ```collectionBinding(bindingName, collectionName, overrideName: string: Optional)``` | Gets a property binding from a collection |
