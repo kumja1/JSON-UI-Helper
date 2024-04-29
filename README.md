@@ -9,7 +9,7 @@ That's all and enjoy tinkering around!
 
 # Documentation:
 
-## Layout
+### Layout
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
@@ -23,20 +23,20 @@ That's all and enjoy tinkering around!
 | ```addVariables({object})``` | undefined | Add variables to your element. **Not variables array** |
 | ```generate()``` | none | Generate the element |
 
-## Div
+### Div
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
 | ```scissor(boolean)``` | false | Should elements get cut-out if goes outside parent? |
 
-## Stacker
+### Stacker
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
 | ```direction(direction)``` | vertical | Which direction should it stack |
 | ```collection(string)``` | none | Which collection does it belong to |
 
-## Grid
+### Grid
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
@@ -44,7 +44,7 @@ That's all and enjoy tinkering around!
 | ```gridDirection(direction)``` | vertical | Which direction should it scale and fill |
 | ```collection(string)``` | none | Which collection does it belong to |
 
-## Label
+### Label
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
@@ -55,14 +55,14 @@ That's all and enjoy tinkering around!
 | ```fontScale(float)``` | 1.0 | The size/scale of the font |
 | ```textColor(rgb)``` | (255, 255, 255) | The color of the label |
 
-## Image
+### Image
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
 | ```imageSource(string)``` | none | The path of the image |
 | ```fileSystem(string)``` | none | Path system it should follow to |
 
-## Render
+### Render
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
@@ -100,3 +100,12 @@ That's all and enjoy tinkering around!
 |             | Ten |
 |             | Small |
 |             | EnchantingTableFont |
+
+# Methods:
+
+| Function | Description |
+| :------: | :---------: |
+| CombineJSON([array], namespace: Optional) | Combines your JSON-UI elements into one |
+| Bindings() | |
+| visibilityBinding(propertyName, controlName: Optional) | A binding that controls the visibility of your element |
+| collectionBinding(bindingName, collectionName, overrideName: string: Optional) | Gets a property binding from a collection |
