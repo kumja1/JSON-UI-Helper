@@ -101,7 +101,7 @@ That's all and enjoy tinkering around!
 |             | Small |
 |             | EnchantingTableFont |
 
-# Methods:
+# Functions:
 
 | Function | Description |
 | :------: | :---------: |
