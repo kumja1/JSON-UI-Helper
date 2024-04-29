@@ -23,13 +23,13 @@ That's all and enjoy tinkering around!
 | ```addVariables({object})``` | undefined | Add variables to your element. **Not variables array** |
 | ```generate()``` | none | Generate the element |
 
-## Div/Panel
+## Div
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
 | ```scissor(boolean)``` | false | Should elements get cut-out if goes outside parent? |
 
-## Stacker/Stack-Panel
+## Stacker
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
@@ -68,6 +68,30 @@ That's all and enjoy tinkering around!
 | :------: | :-----------: | :---------: |
 | ```renderer(string)``` | none | What should it render? |
 
-# Enumerations
+# Enumerations:
+
 | Key | Value |
 | :-: | :---: |
+| ```Renderers``` | LivePlayer |
+|                 | PlayerSkinOnly |
+|                 | Gradient |
+| ```FileSystems``` | AppPackage |
+|                   | UserPackage |
+|                   | RawPath |
+| ```GlobalVariables``` | IsUsingClassic |
+|                       | IsUsingPocket |
+|                       | IsUsingConsole |
+|                       | IfMouseAttached |
+|                       | UsingTouch |
+|                       | IsNotInGame |
+| ```Directions``` | Vertical |
+|                  | Horizontal |
+| ```Position``` | TopStart |
+|                | Top |
+|                | TopEnd |
+|                | MiddleStart |
+|                | Middle |
+|                | MiddleEnd |
+|                | BottomStart |
+|                | Bottom |
+|                | BottomEnd |
