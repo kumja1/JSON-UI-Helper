@@ -95,3 +95,8 @@ That's all and enjoy tinkering around!
 |                | BottomStart |
 |                | Bottom |
 |                | BottomEnd |
+| ```Fonts``` | Default |
+|             | Smooth |
+|             | Ten |
+|             | Small |
+|             | EnchantingTableFont |
