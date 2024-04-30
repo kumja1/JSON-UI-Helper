@@ -9,6 +9,7 @@ hero:
     - theme: brand
       text: Get Started
       link: /docs/get-started
+      
 features:
   - title: "Rapid Development"
     details: "JSON-UI Helper allows you to focus on what really matters and ship out builds faster."
@@ -21,3 +22,4 @@ features:
     details: "Join our active community of developers, share ideas, and get help when you need it."
     icon: 🌐
 ---
+
