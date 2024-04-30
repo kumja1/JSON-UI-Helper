@@ -61,7 +61,7 @@ That's all and enjoy tinkering around!
 
 | Property | Default Value | Description |
 | :------: | :-----------: | :---------: |
-| ```imageSource(string)``` | none | The path of the image |
+| ```source(string)``` | none | The path of the image |
 | ```fileSystem(string)``` | none | Path system it should follow to |
 
 ### Render
